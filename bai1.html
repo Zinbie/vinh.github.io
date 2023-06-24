@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Danh sách sản phẩm</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+        <style>
+            #menu li {
+                color: #ffb67f;
+                display: inline-block;
+                width: 200px;
+                height: 60px;
+                line-height: 60px;
+                }
+                #menu ul {
+                background:#0c2166;
+                list-style-type: none;
+                overflow: hidden;
+                width: 100%;
+                text-align: center;
+                }
+                #menu ul li > .sub-menu {
+                display: none;
+                position: absolute;
+                }
+                .sub-menu {
+                display: none;
+                position: absolute;
+                }
+                #menu li {
+                position: relative;
+                }
+        </style>
+    </head>
+    <body class="container p-5 my-5 border">
+        <div id="menu">
+            <ul>
+              <li><a href="#" class="bg-light"><img style="height: 50px;" src="http://rubee.com.vn/admin/webroot/upload/image//images/tin-tuc/logo-iphone-1.jpg" alt=""></a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Search</a></li>
+              <li>
+                <a href="#">Menu</a>
+                <ul class="sub-menu">
+                    <li><a href="#">menu1</a></li>
+                    <li><a href="#">menu2</a></li>
+                    <li><a href="#">menu3</a></li>
+                    <li><a href="#">menu4</a></li>
+                </ul>
+            </li>
+              <li><a href="#">Information</a></li>
+              <li><a href="#">Setting</a></li>
+              <li><a href="#">Accout</a></li>
+              <li><a href="#">Sign up</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>Search</h2>
+            <div class="container" style="display: flex;">
+                <input class="form-control" type="search" placeholder="Search" aria-label="search" style="width: 50%;"> 
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">search</button>
+            </div>
+        </div>
+        <br>
+        <table class="table table-borderless">
+            <tr>
+                <td style="text-align: center;"><img style="height: 300px;" src="https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-den-thumb-600x600.jpg" alt=""></td>
+                <td style="text-align: center;"><img style="height: 300px;" src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/3/_/3_51_1_7.jpg" alt=""></td>
+                <td style="text-align: center;"><img style="height: 300px;" src="https://cdn.tgdd.vn/Products/Images/42/225453/600x600-iphonese3-600x600.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Iphone 14 pro max</td>
+                <td style="text-align: center;">Iphone 13 pro max</td>
+                <td style="text-align: center;">Iphone SE 3(2022)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><b>21.789.000đ</b></td>
+                <td style="text-align: center;"><b>17.589.000đ</b></td>
+                <td style="text-align: center;"><b>12.990.000đ</b></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><button class="btn btn-success my-2 my-sm-0" type="submit">Xem chi tiết</button></td>
+                <td style="text-align: center;"><button class="btn btn-success my-2 my-sm-0" type="submit">Xem chi tiết</button></td>
+                <td style="text-align: center;"><button class="btn btn-success my-2 my-sm-0" type="submit">Xem chi tiết</button></td>
+            </tr>
+        </table>
+    </body>
+</html>
